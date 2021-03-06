@@ -1,0 +1,23 @@
+{
+  "extends": "../../util/common-config/tsconfig-base.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "rootDir": "src",
+    "outDir": "dist/cjs",
+    "declarationDir": "dist/types",
+    "baseUrl": ".",
+    "paths": {
+      "@batch/ui-common": [
+        "src/ui-common"
+      ]
+    },
+    "typeRoots": [
+      "../../node_modules/@types",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}

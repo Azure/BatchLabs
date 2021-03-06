@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "module": "CommonJS",
+    "sourceMap": true
+  },
+  "exclude": [
+    "../../../node_modules/**/*"
+  ]
+}

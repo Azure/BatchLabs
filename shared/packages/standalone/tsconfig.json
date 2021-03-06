@@ -1,0 +1,23 @@
+{
+  "extends": "../../util/common-config/tsconfig-base.json",
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "jsx": "react",
+    "rootDir": "src",
+    "outDir": "dist/cjs",
+    "declarationDir": "dist/types",
+    "baseUrl": ".",
+    "paths": {
+      "@batch/ui-standalone": [
+        "src/ui-standalone"
+      ]
+    },
+    "typeRoots": [
+      "../../node_modules/@types",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}

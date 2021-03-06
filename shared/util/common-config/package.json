@@ -1,0 +1,20 @@
+{
+  "name": "@batch/common-config",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Common configuration for Batch UI libraries",
+  "repository": {
+    "type": "git",
+    "url": "https://msazure.visualstudio.com/DefaultCollection/One/_git/Batch-UX-Portal"
+  },
+  "author": "Microsoft",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4"
+  },
+  "files": [
+    "dist"
+  ]
+}

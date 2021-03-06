@@ -1,0 +1,40 @@
+{
+  "name": "@batch/ui-shared",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Azure Batch Shared UI Libraries",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "util/*"
+    ]
+  },
+  "scripts": {
+    "build": "lerna run build --stream",
+    "build:clean": "lerna run build:clean --stream",
+    "clean": "lerna run clean --stream",
+    "lint": "lerna run lint --stream",
+    "test": "lerna run test --stream",
+    "watch": "lerna run watch --parallel --ignore \"@batch/ui-standalone\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://msazure.visualstudio.com/DefaultCollection/One/_git/Batch-UX-Portal"
+  },
+  "author": "Microsoft",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^12.12.2",
+    "@typescript-eslint/eslint-plugin": "4.2.0",
+    "@typescript-eslint/parser": "4.2.0",
+    "eslint": "^7.18.0",
+    "jest": "^26.6.3",
+    "jest-junit": "^12.0.0",
+    "lerna": "^3.22.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.2.3",
+    "webpack": "^4.43.0"
+  }
+}
